@@ -1,0 +1,6 @@
+body {
+  background: rgb(98,227,155);
+  background: linear-gradient(229deg, rgba(98,227,155,1) 0%, rgba(255,255,255,1) 64%);
+  background-repeat: no-repeat;
+  font-family: "Prompt", sans-serif !important;
+}
