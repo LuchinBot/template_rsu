@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html class="scroll-smooth md:scroll-auto">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet" />
+  <!--Plugins-->
+  <link rel="stylesheet" href="src/plugins/fontawesome/css/fontawesome.min.css" />
+  <link rel="stylesheet" href="src/plugins/fontawesome/css/brands.min.css" />
+  <link rel="stylesheet" href="src/plugins/fontawesome/css/solid.min.css" />
+  <link href="src/css/output.css" rel="stylesheet" />
+  <link href="src/css/default.css" rel="stylesheet" />
+  <link href="src/css/styles.css" rel="stylesheet" />
+</head>
+
+<body>
+  <div class="main w-full">
+    <section class="container mx-auto">
+      <nav class="py-10 px-6 top-0 z-10 w-full">
+        <div class="flex justify-between items-center">
+          <a href="#" class="text-2xl font-light text-green-600"><span class="font-bold">RSU</span> UNSM</a>
+          <div>
+            <ul class="flex space-x-6 font-medium">
+              <li><a href="index.html" class="">Inicio</a></li>
+              <li><a href="areas.html" class="">Áreas</a></li>
+              <li><a href="contacto.html" class="">Contáctenos</a></li>
+              <li><a href="galeria.html"
+                  class="px-5 py-2 transition duration-500 bg-green-600 text-slate-50 rounded-full hover:bg-green-500">Nuestra
+                  Galeria</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </section>
+    <section class="container mx-auto">
+      <div class="contacto-1 grid grid-cols-12 py-20 overflow-hidden items-center">
+        <div class="left text-left col-span-12 md:col-span-6 px-10">
+          <h2 class="text-4xl font-semibold text-slate-950">Contáctenos</h2>
+          <p class="text-lg mb-5 text-slate-500">
+            (*) Rellena el formulario con información real.
+          </p>
+          <form action="">
+            <div class="grid grid-cols-1 gap-x-6 gap-y-4 sm:grid-cols-6">
+              <div class="sm:col-span-6">
+                <div class="mt-2">
+                  <input type="text" name="first-name" id="first-name" autocomplete="given-name"
+                    placeholder="Nombres y apellidos"
+                    class="block w-full bg-slate-200 rounded-md shadow-lg border-0 py-4 px-2 text-gray-900 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-green-600 sm:text-xl">
+                </div>
+              </div>
+              <div class="sm:col-span-6">
+                <div class="mt-2">
+                  <input type="email" name="first-name" id="first-name" autocomplete="given-name"
+                    placeholder="Correo electrónico"
+                    class="block w-full bg-slate-200 rounded-md shadow-lg border-0 py-4 px-2 text-gray-900 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-green-600 sm:text-xl">
+                </div>
+              </div>
+              <div class="col-span-full">
+                <div class="">
+                  <textarea id="about" name="about" rows="3" placeholder="Mensaje de contácto"
+                    class="block w-full bg-slate-200 rounded-md border-0 py-4 px-2 text-gray-900 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-green-600 sm:text-xl"></textarea>
+                </div>
+              </div>
+              <div class="col-span-full">
+                <div class="flex items-center gap-x-3">
+                  <input id="push-everything" name="push-notifications" type="radio"
+                    class="size-4 border-gray-300 text-indigo-600 focus:ring-indigo-600">
+                  <label for="push-everything" class="block text-lg font-medium text-slate-500"> Acepto los términos y
+                    condiciones</label>
+                </div>
+              </div>
+            </div>
+            <div class="mt-6 flex items-center justify-end gap-x-6">
+              <button type="submit"
+                class="rounded-md bg-green-600 px-5 py-2 text-lg font-semibold text-white shadow-lg hover:bg-green-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
+                <i class="fa fas far fa-paper-plane"></i> Enviar
+              </button>
+            </div>
+          </form>
+        </div>
+        <div class="right col-span-12 md:col-span-6 flex justify-center items-center">
+          <div class="image relative" style="background-image: url('src/img/start-1.jpg');">
+            <span class="absolute inset-0 bg-slate-950 opacity-10"></span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="bg-green-500">
+      <div class="container mx-auto contacto-2 grid grid-cols-12 py-10 overflow-hidden items-center">
+        <div class="left text-left col-span-12 md:col-span-6 px-10">
+          <h1 class="text-3xl font-bold text-slate-50">Adicional <i class="fa fa-plus"></i></h1>
+        </div>
+        <div class="right col-span-12 md:col-span-6 flex justify-center items-center">
+          <div>
+            <ul class="flex space-x-6 text-2xl">
+              <li class="flex items-center justify-start text-slate-50"><a href="#"
+                  class="flex bg-slate-50 text-green-600 rounded-full items-center transition duration-500 justify-center shadow-md hover:bg-green-500 hover:text-slate-50 footer-icon mr-3"><i
+                    class="fas fa-envelope"></i></a> rsu@unsm.edu.pe.com</li>
+              <li class="flex items-center justify-start text-slate-50"><a href="#"
+                  class="flex bg-slate-50 text-green-600 rounded-full items-center transition duration-500 justify-center shadow-md hover:bg-green-500 hover:text-slate-50 footer-icon mr-3"><i
+                    class="fas fa-phone"></i></a> +51 930227604</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="footer">
+      <footer class="container mx-auto py-10 px-6 top-0 z-10 w-full">
+        <div class="flex justify-between items-center">
+          <a href="#" class="text-2xl font-light text-green-600"><span class="font-bold">RSU</span> UNSM</a>
+          <div>
+            <ul class="flex space-x-6 text-2xl">
+              <li><a href="#"
+                  class="flex bg-slate-50 text-green-600 rounded-full items-center transition duration-500 justify-center shadow-md hover:bg-green-400 hover:text-slate-50 footer-icon"><i
+                    class="fab fa-facebook-f"></i></a></li>
+              <li><a href="#"
+                  class="flex bg-slate-50 text-green-600 rounded-full items-center transition duration-500 justify-center shadow-md hover:bg-green-400 hover:text-slate-50 footer-icon"><i
+                    class="fab fa-instagram"></i></a></li>
+              <li><a href="#"
+                  class="flex bg-slate-50 text-green-600 rounded-full items-center transition duration-500 justify-center shadow-md hover:bg-green-400 hover:text-slate-50 footer-icon"><i
+                    class="fab fa-youtube"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+    </section>
+  </div>
+
+</body>
+
+</html>

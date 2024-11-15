@@ -86,3 +86,120 @@
   width: 60px;
   height: 60px;
 }
+
+/* ÁREAS */
+.area-1 .image {
+  width: 400px;
+  height: 400px;
+  overflow: hidden;
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top-left-radius: 200px;
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 200px;
+  border-bottom-right-radius: 50px;
+  animation: moving 4s forwards ease-in;
+}
+@keyframes moving {
+  0% {
+    transform: translateY(20px);
+  }
+  50% {
+    transform: translateY(0px);
+  }
+  100% {
+    transform: translateY(20px);
+  }
+}
+/* CONTACTO */
+.contacto-1 .image {
+  width: 400px;
+  height: 500px;
+  overflow: hidden;
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top-left-radius: 200px;
+  border-top-right-radius: 0px;
+  border-bottom-left-radius: 200px;
+  border-bottom-right-radius: 200px;
+  animation: moving 4s forwards ease-in;
+}
+@keyframes moving {
+  0% {
+    transform: translateY(20px);
+  }
+  50% {
+    transform: translateY(0px);
+  }
+  100% {
+    transform: translateY(20px);
+  }
+}
+textarea{
+  field-sizing: content !important;
+  min-height: 7lh;
+}
+input:focus {
+  border-color: #22C55E; /* Cambia el color del borde al enfocar */
+  outline: none; /* Elimina el contorno predeterminado */
+  box-shadow: 0 0 0 2px #22C55E; /* Agrega un efecto de sombra */
+}
+textarea:focus {
+  border-color: #22C55E; /* Cambia el color del borde al enfocar */
+  outline: none; /* Elimina el contorno predeterminado */
+  box-shadow: 0 0 0 2px #22C55E; /* Agrega un efecto de sombra */
+}
+/* GALERIA */
+.galeria-1 .image {
+  width: 400px;
+  height: 400px;
+  overflow: hidden;
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 100px;
+  border-bottom-left-radius: 200px;
+  border-bottom-right-radius: 50px;
+  animation: moving 4s forwards ease-in;
+}
+@keyframes moving {
+  0% {
+    transform: translateY(20px);
+  }
+  50% {
+    transform: translateY(0px);
+  }
+  100% {
+    transform: translateY(20px);
+  }
+}
+
+.galeria-2 .image {
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 100px;
+  border-bottom-left-radius: 200px;
+  border-bottom-right-radius: 50px;
+  animation: moving 4s forwards ease-in;
+}
+@keyframes moving {
+  0% {
+    transform: translateY(20px);
+  }
+  50% {
+    transform: translateY(0px);
+  }
+  100% {
+    transform: translateY(20px);
+  }
+}
