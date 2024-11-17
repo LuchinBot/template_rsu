@@ -203,3 +203,29 @@ textarea:focus {
     transform: translateY(20px);
   }
 }
+
+
+.evento-1 .image {
+  overflow: hidden;
+  width: 400px;
+  min-height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 100px;
+  border-bottom-left-radius: 200px;
+  border-bottom-right-radius: 50px;
+  animation: moving 4s forwards ease-in;
+}
+@keyframes moving {
+  0% {
+    transform: translateY(20px);
+  }
+  50% {
+    transform: translateY(0px);
+  }
+  100% {
+    transform: translateY(20px);
+  }
+}
